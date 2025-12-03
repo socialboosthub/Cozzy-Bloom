@@ -1166,3 +1166,41 @@ span {
                                                                                                                     }
 
                                                                                                                     }
+                                                                                                                    /* DESKTOP CONTACT FORM */
+                                                                                                                    @media (min-width: 769px) {
+
+                                                                                                                      .contact-form {
+                                                                                                                          max-width: 900px;  /* wider for desktop */
+                                                                                                                              margin: 0 auto;
+                                                                                                                                  gap: 20px;
+                                                                                                                                    }
+
+                                                                                                                                      .form-row {
+                                                                                                                                          flex-direction: row;           /* fields side by side */
+                                                                                                                                              align-items: center;
+                                                                                                                                                  gap: 20px;
+                                                                                                                                                    }
+
+                                                                                                                                                      .form-row label {
+                                                                                                                                                          flex: 1;                       /* label takes 1 part */
+                                                                                                                                                              text-align: right;
+                                                                                                                                                                  margin-bottom: 0;
+                                                                                                                                                                    }
+
+                                                                                                                                                                      .form-row input,
+                                                                                                                                                                        .form-row select {
+                                                                                                                                                                            flex: 2;                       /* input takes 2 parts */
+                                                                                                                                                                              }
+
+                                                                                                                                                                                .radio-group {
+                                                                                                                                                                                    gap: 20px;                     /* more space between options */
+                                                                                                                                                                                      }
+
+                                                                                                                                                                                        #submitBtn {
+                                                                                                                                                                                            width: 200px;                  /* consistent button width */
+                                                                                                                                                                                                align-self: center;            /* center the submit button */
+                                                                                                                                                                                                    padding: 14px 28px;
+                                                                                                                                                                                                        font-size: 18px;
+                                                                                                                                                                                                          }
+
+                                                                                                                                                                                                          }
