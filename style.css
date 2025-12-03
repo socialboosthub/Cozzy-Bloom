@@ -1205,11 +1205,12 @@ span {
 
                                                                                                                                                                                                           }
 .contact-form {
-    max-width: 900px;       /* wider on desktop */
+    max-width: 9000px;       /* wider on desktop */
       width: 80%;             /* relative to screen */
         margin: 50px auto;      /* centers horizontally with top/bottom space */
           display: flex;
             flex-direction: column;
               gap: 20px;
+              margin: 0 auto;
               }
 }                                                                                                                      
