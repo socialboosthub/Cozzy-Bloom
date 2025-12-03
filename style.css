@@ -1205,7 +1205,7 @@ span {
 
                                                                                                                                                                                                           }
 .contact-form {
-    max-width: 90000px;       /* wider on desktop */
+    max-width: 900px;       /* wider on desktop */
       width: 80%;             /* relative to screen */
         margin: 50px auto;      /* centers horizontally with top/bottom space */
           display: flex;
